@@ -1,14 +1,34 @@
 <header>
-  <h1>{{titulo}}</h1>
-  <nav>
-    <a routerLink="/registro" routerLinkActivate="active-tab">
-      Registro Usuario
-    </a>
-    <a routerLink="/buscador" routerLinkActivate="active-tab">
-      Buscador Pokemon
-    </a>
-  </nav>
-  <main>
-    <router-outlet></router-outlet>
-  </main>
+    <h1>{{titulo}}</h1>
+
+    <nav>
+        <a routerLink="/registro" routerLinkActive="active-tab">
+            Registro Usuario
+        </a>
+        <a routerLink="/buscador" routerLinkActive="active-tab">
+            Buscador Pokemon
+        </a>
+        <a routerLink="/charmander" routerLinkActive="active-tab">
+            Charmander
+        </a>
+        <a routerLink="/eevee" routerLinkActive="active-tab">
+            Eevee
+        </a>
+        <a routerLink="/shinx" routerLinkActive="active-tab">
+            Shinx
+        </a>
+        <a routerLink="/snorlax" routerLinkActive="active-tab">
+            Snorlax
+        </a>
+        <a routerLink="/squirtle" routerLinkActive="active-tab">
+            Squirtle
+        </a>
+        <a routerLink="/bulbasaur" routerLinkActive="active-tab">
+            Bulbasaur
+        </a>
+    </nav>
 </header>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
